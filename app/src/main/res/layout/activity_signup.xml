@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mhizmali.batmanfirebase.SignupActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <ImageView
+            android:layout_width="@dimen/logo_weight_height"
+            android:layout_height="@dimen/logo_weight_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/logo_margin_bottom"
+            android:src="@mipmap/signup"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/activity_signup_edittxt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:textColor="@color/colorTextEdittext" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/activity_signup_edittxt_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="true"
+                android:hint="@string/hint_password"
+                android:imeActionId="@+id/login"
+                android:imeOptions="actionUnspecified"
+                android:inputType="textPassword"
+                android:textColor="@color/colorTextEdittext" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/activity_signup_btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/btn_layout_marginTop"
+            android:textSize="@dimen/activity__btn_txt_size"
+            android:background="@color/colorButtonBackground"
+            android:text="@string/action_sign_in_short"
+            android:textColor="@color/colorTextButton"
+            android:textStyle="bold"
+            android:textAllCaps="false"/>
+
+
+
+        <!-- Login Ekranı Linkleri-->
+        <Button
+            android:id="@+id/activity_signup_btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/btn_layout_marginTop"
+            android:textSize="@dimen/activity__btn_txt_size"
+            android:background="@null"
+            android:text="@string/btn_link_to_login"
+            android:textColor="@color/colorTextButtonText"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/activity_signup_progressbar"
+        android:layout_width="@dimen/progressbar_weight_height"
+        android:layout_height="@dimen/progressbar_weight_height"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="@dimen/progressbar_layout_marginBottom"
+        android:visibility="gone"/>
+
+</android.support.design.widget.CoordinatorLayout>

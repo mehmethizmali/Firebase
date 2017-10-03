@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/activity_main_drawer_homepage"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/activity_main_drawer_homepage" />
+        <item
+            android:id="@+id/activity_main_drawer_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/activity_main_drawer_gallery" />
+        <item
+            android:id="@+id/activity_main_drawer_share"
+            android:icon="@drawable/ic_menu_message"
+            android:title="@string/activity_main_drawer_mymessage" />
+        <item
+            android:id="@+id/activity_main_drawer_settings"
+            android:icon="@drawable/ic_menu_setting"
+            android:title="@string/activity_main_drawer_settings" />
+    </group>
+
+    <item android:title="Hesap Ayarları">
+        <menu>
+            <item
+                android:id="@+id/activity_main_drawer_change_mail"
+                android:icon="@drawable/ic_menu_email"
+                android:title="@string/activity_main_drawer_change_mail"/>
+            <item
+            android:id="@+id/activity_main_drawer_change_password"
+            android:icon="@drawable/ic_menu_password"
+                android:title="@string/activity_main_drawer_change_password" />
+
+            <item
+                android:id="@+id/activity_main_drawer_delete_accou"
+                android:icon="@drawable/ic_menu_delete"
+                android:title="@string/activity_main_drawer_delete_account" />
+            <item
+                android:id="@+id/activity_main_drawer_logout"
+                android:icon="@drawable/ic_menu_logout"
+                android:title="@string/activity_main_drawer_logout" />
+        </menu>
+    </item>
+
+</menu>

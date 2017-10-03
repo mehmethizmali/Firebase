@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "317174582756",
+    "firebase_url": "https://kodluyoruzfirebase.firebaseio.com",
+    "project_id": "kodluyoruzfirebase",
+    "storage_bucket": "kodluyoruzfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317174582756:android:9325b9e684b2901f",
+        "android_client_info": {
+          "package_name": "com.example.mhizmali.batmanfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317174582756-vo7jp4ejdc0obsi5s5v6lubectv5br57.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mhizmali.batmanfirebase",
+            "certificate_hash": "768866fa97caaed65f89d6abdb5aa0124400cd01"
+          }
+        },
+        {
+          "client_id": "317174582756-ceeuffundk2bc4c3e6qtj0rua2hcpcoo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmewJCljb8oQ5m5fxlINC4CLcnedP_6q4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "317174582756-ceeuffundk2bc4c3e6qtj0rua2hcpcoo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

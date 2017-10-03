@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Batman</string>
+    <string name="action_sign_in_short">Kayıt Ol</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Şifre çok kısa,en az 6 karakter girin!</string>
+    <string name="auth_failed">Kimlik goğrulama başarısız, e-mail ve şifrenizi kontrol edin veya kaydolun</string>
+    <string name="change_email">Email Adresi Değiştir</string>
+    <string name="change_password">Şifre Değiştir</string>
+    <string name="send_password_reset_email">Şifre sıfırlama maili gönder</string>
+    <string name="remove_user">Kullanıcı Sil</string>
+    <string name="new_pass">Yeni Şifre Oluştur</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Giriş</string>
+    <string name="hint_email">Email Adresi</string>
+    <string name="hint_password">Şifre</string>
+    <string name="hint_password_again">Şifre Tekrar</string>
+    <string name="hint_change_password">Yeni Şifre</string>
+    <string name="hint_change_password_again">Yeni Şifre Tekrar</string>
+    <string name="hint_name">Adı</string>
+    <string name="btn_login">Giriş</string>
+    <string name="btn_change_password">Şifre Değiştir</string>
+    <string name="btn_change_email">Email Değiştir</string>
+    <string name="btn_link_to_register">Üye değil misin? Şimdi kaydol!</string>
+    <string name="btn_link_to_login">Oturum Aç</string>
+    <string name="title_activity_reset_password">ŞifreSıfırlamaActivity</string>
+    <string name="btn_forgot_password">Şifremi unuttum</string>
+    <string name="btn_reset_password">Şifremi sıfırla</string>
+    <string name="btn_back"><![CDATA[<< Geri]]></string>
+    <string name="hint_new_email">Yeni Email Adresi</string>
+    <string name="btn_change">Değiştir</string>
+    <string name="btn_send">Gönder</string>
+    <string name="btn_remove">Sil</string>
+    <string name="btn_sign_out">Çıkış</string>
+    <string name="lbl_forgot_password">Şifrenizi mi unuttunuz?</string>
+    <string name="lbl_forgot_password_msg">Şifre Sıfırlama talimatlarını göndermek için kayıtlı e-mail adresinize ihtiyacımız var!</string>
+
+    <string name="email_edittxt_message">Email adresinizi giriniz!</string>
+    <string name="password_edittxt_message">Şifrenizi giriniz!</string>
+    <string name="password_edittxt_message_again">Şifrenizi tekrar giriniz!</string>
+    <string name="password_edittxt_lenght_message">Şifre çok kısa,en az 6 karakter giriniz!</string>
+    <string name="password_update_message">Şifreniz Başarı ile güncellendi</string>
+    <string name="password_no_update_message">Şifreniz Güncellenemedi!</string>
+    <string name="email_edittxt_send_message">Şifre sıfırlama,mail adresine gönderilmiştir</string>
+    <string name="email_edittxt_update_message">Email adresiniz güncelenmiştir</string>
+    <string name="email_edittxt_no_update_message">Email adresiniz güncellenemedi!</string>
+    <string name="email_edittxt_no_send_message">Şifre sıfırlama maili gönderilmedi</string>
+    <string name="email_edittxt_empty">Lütfen kayıtlı email adresinizi girin</string>
+
+
+    <string name="register_btn_succses_message">Kayıt Başarılı</string>
+    <string name="register_btn_un_succses_message">Geçerli bir email adresi girin!</string>
+    <string name="title_ıtem_list">Items</string>
+    <string name="title_ıtem_detail">Item Detail</string>
+    <string name="title_activity_main"></string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="activity_main_drawer_homepage">Anasayfa</string>
+    <string name="activity_main_drawer_gallery">Galeri</string>
+    <string name="activity_main_drawer_mymessage">Mesajlar</string>
+    <string name="activity_main_drawer_settings">Ayarlar</string>
+    <string name="activity_main_drawer_account_settings">Hesap Ayarları</string>
+    <string name="activity_main_drawer_change_mail">Email adresini değiştir</string>
+    <string name="activity_main_drawer_change_password"> Parola değiştir</string>
+    <string name="activity_main_drawer_delete_account">Hesabımı sil</string>
+    <string name="activity_main_drawer_logout">Çıkış</string>
+
+    <string name="delete_account_message">Hesabınız silinmiştir:( Şimdi hesap oluştur!</string>
+    <string name="no_delete_account_message">Hesabınız Silinemedi!</string>
+
+
+    <string name="activity_main_alertdialog_account_delete_title">Hesap Silme</string>
+    <string name="activity_main_alertdialog_logout_title">Çıkış</string>
+    <string name="activity_main_alertdialog_account_delelte_message">Hesabınız silmek isteğinizden emin misiniz?</string>
+    <string name="activity_main_alertdialog_logout_message">Çıkış yapmak istediğinizden emin misiniz?</string>
+    <string name="activity_main_alertdialog_yes">Evet</string>
+    <string name="activity_main_alertdialog_no">Hayır</string>
+    <string name="activity_main_alertdialog_delete">Sil</string>
+    <string name="activity_main_alertdialog_cancel">İptal</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
